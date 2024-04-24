@@ -1,0 +1,8 @@
+services:
+  autogenstudio:
+    stdin_open: true
+    tty: true
+    ports:
+        - 8081:8081
+    build: .
+    # command: -e "OPENAI_API_KEY=your_openai_api_key"
