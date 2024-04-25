@@ -5,4 +5,5 @@ services:
     ports:
         - 8081:8081
     build: .
+    image: ghcr.io/mroxso/autogenstudio:latest
     # command: -e "OPENAI_API_KEY=your_openai_api_key"
